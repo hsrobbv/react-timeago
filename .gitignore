@@ -25,7 +25,8 @@ build/Release
 # see https://npmjs.org/doc/faq.html#Should-I-check-my-node_modules-folder-into-git
 
 node_modules
-lib
+# Include release folder until upstream is updated past 3.4.3 to support react@16.0.0+ (RP 11/7/2017)
+#lib
 
 .DS_Store
 */.DS_Store
